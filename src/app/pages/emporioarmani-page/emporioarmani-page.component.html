@@ -1,0 +1,15 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 text-center" *ngFor="let item of armani">
+      <img src="{{item.url}}" alt="" class="img-fluid">
+      <h5>{{item.model}}</h5>
+      <h6>{{item.price}}</h6>
+      <button class="btn btn-dark"
+              [routerLink]="['/detail',item.id]"
+              [queryParams]="{model: item.model, price: item.price, url: item.url, title: item.title}"
+      >Ավելին</button>
+    </div>
+  </div>
+</div>

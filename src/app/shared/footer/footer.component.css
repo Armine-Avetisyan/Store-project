@@ -1,0 +1,69 @@
+
+
+/*---Footer---*/
+a:hover{
+  text-decoration: none;
+}
+
+.container-fluid {
+
+  padding-bottom: 20px;
+}
+
+#footer{
+  color: white;
+  background-color: #333333;
+}
+
+.col1 i{
+  color: orange;
+  font-size: 30px;
+  margin-top: 20px;
+  display: block;
+}
+
+.col1 i:hover{
+  background-color: #333333;
+  color: white;
+}
+.col2 a{
+  color: white;
+}
+.col2 i{
+  color: orange;
+}
+h6 {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+#footer .btn-primary{
+  width: 100%;
+  height: 50px;
+  display: inline;
+  margin-top: 30px;
+  background-color: #333333;
+  border-color: orange;
+  box-shadow: 0px 0px 20px #111111;
+
+}
+
+.col3 i{
+  color: orange;
+}
+
+#footer input{
+  width: 100%;
+  margin-top: 30px;
+  background-color: #333333;
+  border:1px solid #333333;
+  border-bottom: 1px solid orange;
+  outline: 0px;
+  font-size: 15px;
+  color: white;
+  padding: 0px;
+
+}
+
+

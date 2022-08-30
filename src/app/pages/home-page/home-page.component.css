@@ -1,0 +1,37 @@
+
+
+.carousel{
+  margin-bottom: 25px;
+}
+
+#categories{
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.size{
+  width: 200px;
+  height: 100px;
+}
+
+ button:hover {
+  color: orange;
+}
+
+#news{
+  margin: 50px auto;
+}
+
+#news p{
+  margin: 60px auto;
+}
+
+.style{
+  width: 300px;
+  height: 300px;
+}
+
+.style2{
+  width: 300px;
+  height: 300px;
+}
+
